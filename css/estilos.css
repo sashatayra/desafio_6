@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background-image: url(../assets/1539.jpg);
+	background-size: contain;
+}
+
+#imagenLogo{
+	border-radius: 40%;
+	animation-duration: 1.2s;
+   	animation-name: aparecer;
+   	animation-iteration-count: 5s;
+}
+
+@keyframes aparecer{
+	0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+
+}
+
+#contenido{
+	background: radial-gradient(#ccc, #000);
+	color: #fff;
+}
+
+.titulo{
+	font-family: 'Koulen', cursive;
+}
+
+#imagenUno{
+    height: 25rem;
+    width: 25rem;
+  	transition: all 1s;
+}
+
+#imagenUno:hover{
+	height: 30rem;
+	width: 30rem;
+} 
+
+#imagenDos{
+	height: 25rem;
+    width: 25rem;
+    transition: all 1s;
+}
+
+#imagenDos:hover{
+	height: 30rem;
+	width: 30rem;
+}
+
+#imagenTres{
+    height: 25rem;
+    width: 25rem;
+    transition: all 1s;
+}
+
+#imagenTres:hover{
+	height: 30rem;
+	width: 30rem;
+}
+
+#footer{
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+/*trabajos.html*/
+#trabajoUno{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoDos{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoTres{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoCuatro{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoCinco{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoSeis{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoSiete{
+	width: 50rem;
+	height: 50rem;
+}
+#trabajoOcho{
+	width: 50rem;
+	height: 50rem;
+}
+
+/*formularios.html*/
+
+#formulario{
+	background-color: #fff;
+	color: #000;
+}
+
+#arriba{
+	min-height: 100vh;
+}
