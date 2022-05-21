@@ -113,6 +113,19 @@ body{
 	color: #000;
 }
 
-#arriba{
-	min-height: 100vh;
+/*sobremi.html*/
+
+#textoSob{
+	background-color: #000;
+	color: #fff;
+}
+
+#fotoSob{
+	width: 40rem;
+	height: 40rem;
+}
+
+#video{
+	width: 40rem;
+	height: 40rem;
 }
