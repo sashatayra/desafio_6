@@ -106,6 +106,7 @@ body{
 	height: 50rem;
 }
 
+
 /*formularios.html*/
 
 #formulario{
@@ -128,4 +129,48 @@ body{
 #video{
 	width: 40rem;
 	height: 40rem;
+}
+
+/*estudio.html*/
+
+#imagenEsUno{
+	height: 35rem;
+	width: 35rem;
+}
+
+#imagenEsDos{
+	height: 35rem;
+	width: 35rem;
+}
+
+#imagenEsTres{
+	height: 35rem;
+	width: 35rem;
+}
+
+#imagenEsCuatro{
+	height: 35rem;
+	width: 35rem;
+}
+
+#textoEs{
+	background-color: #000;
+	color: #fff;
+}
+
+/*cuidados.html*/
+
+#imagenCuidados{
+	height: 35rem;
+	width: 35rem;
+}
+
+#textoCui{
+	background-color: #000;
+	color: #fff;
+}
+
+#textoDosCui{
+	background-color: #000;
+	color: #fff;
 }

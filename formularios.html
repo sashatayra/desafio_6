@@ -38,14 +38,17 @@
     </nav>
     <div class="container-fluid my-3 p-3" id="formulario">
       <div class="fs-4">Completa tus datos y a la brevedad nos comunicaremos con vos!</div>
-      <label for="formControlInput" class="form-label">Nombre</label>
-      <input type="email" class="form-control" id="formControlInput" placeholder="Nombre">
-      <label for="formControlInput" class="form-label">Apellido</label>
-      <input type="email" class="form-control" id="formControlInput" placeholder="Apellido">
-      <label for="formControlInput" class="form-label">Email</label>
-      <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
-      <label for="formControlInput" class="form-label">Telefono</label>
-      <input type="email" class="form-control" id="formControlInput" placeholder="Telefono">
+      <form action="formularios.html" method="POST" enctype="multipart/form-data">
+        <label for="formControlInput" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="formControlInput" placeholder="Nombre">
+        <label for="formControlInput" class="form-label">Apellido</label>
+        <input type="email" class="form-control" id="formControlInput" placeholder="Apellido">
+        <label for="formControlInput" class="form-label">Email</label>
+        <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
+        <label for="formControlInput" class="form-label">Telefono</label>
+        <input type="email" class="form-control" id="formControlInput" placeholder="Telefono">
+        <button type="button" class="btn btn-outline-primary mt-3">Enviar</button>
+      </form>  
     </div>
     <div class="container-fluid d-flex row">
       <div id="footer" class="mt-5 col-12 align-items-around">
