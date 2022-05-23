@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Baloo+Da+2&family=Bebas+Neue&family=Concert+One&display=swap');
 
 body{
 	font-family: 'Nunito', sans-serif;
@@ -69,43 +71,22 @@ body{
 #footer{
 	background-color: #000;
 	color: #fff;
-	opacity: .8;
 }
 
 /*trabajos.html*/
-#trabajoUno{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoDos{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoTres{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoCuatro{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoCinco{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoSeis{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoSiete{
-	width: 50rem;
-	height: 50rem;
-}
-#trabajoOcho{
-	width: 50rem;
-	height: 50rem;
+#carrusel{
+	max-width: 590px;
 }
 
+#instagram{
+	background-color: #fff;
+	color: #000
+}
+
+#insta{
+	font-family: 'Concert One', cursive;
+	color: #000;
+}
 
 /*formularios.html*/
 
